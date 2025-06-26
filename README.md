@@ -1,6 +1,7 @@
-CNN from Scratch
+**CNN from Scratch**
 Overview
-This project is a C# implementation of a Convolutional Neural Network (CNN) built from the ground up for educational purposes. It aims to help developers and learners understand the inner workings of CNNs by providing a clear, modular, and extensible codebase. The project includes a complete training pipeline for the CIFAR-10 dataset, supporting both simple and VGG11-inspired architectures, with options for SGD and Adam optimizers.
+This project is a C# implementation of a Convolutional Neural Network (CNN) built from the ground up for my own educational purposes. 
+It aims to help developers and learners understand the inner workings of CNNs by providing a clear, modular, and extensible codebase. The project includes a complete training pipeline for the CIFAR-10 dataset, supporting both simple and VGG11-inspired architectures, with options for SGD and Adam optimizers.
 The implementation covers key components of a CNN, including convolutional layers, batch normalization, ReLU activation, max pooling, dropout, and dense layers, along with training and evaluation logic. It is designed to be readable and well-documented, making it a valuable resource for those studying deep learning concepts.
 Features
 
@@ -11,17 +12,17 @@ Simple CNN: 3x(Conv-BatchNorm-ReLU-Conv-BatchNorm-ReLU-MaxPool) → Dense → Re
 VGG11-inspired CNN for more complex tasks.
 
 
-Optimizer Options:
+**Optimizer Options:**
 Stochastic Gradient Descent (SGD) with momentum and gradient clipping.
 Adam optimizer for adaptive learning.
 
 
-Hyperparameter Tuning: Configurable learning rate, batch size, dropout rate, and epochs via console prompts.
-Training Pipeline: Supports batch processing, learning rate decay, and validation accuracy tracking.
-Model Serialization: Save trained models to JSON for reuse.
-Error Handling: Robust checks for data loading and model configuration.
+**Hyperparameter Tuning:** Configurable learning rate, batch size, dropout rate, and epochs via console prompts.
+**Training Pipeline: **Supports batch processing, learning rate decay, and validation accuracy tracking.
+**Model Serialization:** Save trained models to JSON for reuse.
+**Error Handling:** Robust checks for data loading and model configuration.
 
-Purpose
+**Purpose**
 This project was developed to deepen the understanding of CNNs by implementing them without relying on high-level frameworks like TensorFlow or PyTorch. It serves as an educational tool for students, developers, and enthusiasts who want to learn how CNNs work under the hood, including forward/backward passes, gradient computation, and optimization.
 Getting Started
 Prerequisites
@@ -29,7 +30,7 @@ Prerequisites
 .NET SDK (version 6.0 or higher recommended)
 A basic understanding of CNN concepts and C# programming
 
-Installation
+**Installation**
 
 Clone the repository:git clone https://github.com/yourusername/cnn-from-scratch.git
 
@@ -41,7 +42,7 @@ Build the project:dotnet build
 
 
 
-Usage
+**Usage**
 
 Run the program:dotnet run
 
@@ -61,7 +62,7 @@ Save the trained model to cifar10_model.json.
 
 
 
-Example Output
+**Example Output**
 CIFAR-10 CNN Training
 =====================
 Choose model architecture:
@@ -86,7 +87,7 @@ Epoch 1 complete. Final Loss: 1.8923, Accuracy: 32.45%
 ...
 Validation Accuracy: 55.67%
 
-Project Structure
+**Project Structure**
 
 Program.cs: Entry point, handles user input, model selection, and training orchestration.
 Trainer.cs: Manages the training and evaluation pipeline, including batch processing, forward/backward passes, and optimization.
@@ -97,25 +98,27 @@ Models/: Defines the SequentialModel class and model creation logic.
 Training/: Includes optimizer implementations (SGD, Adam) and loss functions (CrossEntropyLoss).
 Models/Serialization/: Supports saving and loading models to/from JSON.
 
-Limitations
+**Limitations**
 
 Designed for educational purposes, not optimized for production-level performance.
 Limited to CIFAR-10 dataset; extending to other datasets requires additional data loaders.
 No GPU acceleration; computations are CPU-based.
 Basic data augmentation (only for Adam optimizer in some presets).
 
-Contributing
+**Contributing**
 Contributions are welcome! If you'd like to improve the code, add features, or fix bugs, please:
 
-Fork the repository.
+**Fork the repository.**
 Create a feature branch (git checkout -b feature/YourFeature).
 Commit your changes (git commit -m 'Add YourFeature').
 Push to the branch (git push origin feature/YourFeature).
 Open a pull request.
 
-License
+**License**
 This project is licensed under the MIT License. See the LICENSE file for details.
 Acknowledgments
 
 Inspired by the CIFAR-10 dataset and VGG architecture.
 Built for learning and experimentation with deep learning concepts in C#.
+
+- DK -
