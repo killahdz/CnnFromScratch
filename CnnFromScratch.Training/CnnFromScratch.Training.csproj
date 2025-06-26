@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CnnFromScratch.Core\CnnFromScratch.Core.csproj" />
+    <ProjectReference Include="..\CnnFromScratch.Data\CnnFromScratch.Data.csproj" />
+    <ProjectReference Include="..\CnnFromScratch.Layers\CnnFromScratch.Layers.csproj" />
+    <ProjectReference Include="..\CnnFromScratch.Models\CnnFromScratch.Models.csproj" />
+  </ItemGroup>
+
+</Project>
