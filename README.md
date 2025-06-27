@@ -1,4 +1,4 @@
-# 🚀 CNN from Scratch 🚀
+# 🚀 Image Classification CNN from Scratch 🚀
 ## ✨ Overview
 This project presents a C# implementation of a Convolutional Neural Network (CNN) built entirely from the ground up! 🤯 My primary goal was educational: to help developers and learners dive deep into the inner workings of CNNs with a clear, modular, and extensible codebase.
 
