@@ -4,6 +4,27 @@ This project presents a C# implementation of a Convolutional Neural Network (CNN
 
 It includes a complete training pipeline for the CIFAR-10 dataset, supporting both a simple architecture and a VGG11-inspired design, alongside options for SGD and Adam optimizers. You'll find core CNN components like convolutional layers, batch normalization, ReLU activation, max pooling, dropout, and dense layers, all crafted for readability and detailed documentation. It's truly a valuable resource for anyone studying deep learning fundamentals! 💡
 
+## 🖼️ About CIFAR-10 Dataset
+The CIFAR-10 dataset is a widely used benchmark in machine learning and computer vision for image classification. It consists of 60,000 32x32 color images (50,000 for training and 10,000 for testing), divided into 10 distinct classes. Each class contains 6,000 images.
+
+These small images make the dataset computationally manageable while still presenting a realistic challenge for image classification algorithms. The 10 classes are:
+
+* Airplane ✈️
+* Automobile 🚗
+* Bird 🐦
+* Cat 🐱
+* Deer 🦌
+* Dog 🐶
+* Frog 🐸
+* Horse 🐎
+* Ship 🚢
+* Truck 🚚
+
+Here's an example of some images from the CIFAR-10 dataset:
+
+![image](https://github.com/user-attachments/assets/04441e26-8c5e-4605-bac5-8fff2c8c56e4)
+
+
 ## 🌟 Features
 Custom CNN Implementation:
 
