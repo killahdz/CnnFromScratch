@@ -52,60 +52,31 @@ A basic understanding of CNN concepts and C# programming. 💻
 
 ## 🛠️ Installation
 Clone the repository:
-
-Bash
-
-git clone https://github.com/yourusername/cnn-from-scratch.git
-Navigate to the project directory:
-
-Bash
-
-cd cnn-from-scratch
 Build the project:
 
-Bash
-
-dotnet build
-🏃 Usage
+## 🏃 Usage
 Run the program:
 
-
 Follow the console prompts to:
-
-Select a model architecture (Simple or VGG11).
-
-Choose an optimizer (SGD or Adam).
-
-Pick a hyperparameter preset (learning rate, batch size, dropout rate, epochs).
-
+- Select a model architecture (Simple or VGG11).
+- Choose an optimizer (SGD or Adam).
+- Pick a hyperparameter preset (learning rate, batch size, dropout rate, epochs).
 The program will then:
-
-Download and extract the CIFAR-10 dataset. 📥
-
-Train the selected model on the dataset.
-
-Display training progress (loss and accuracy per batch/epoch).
-
-Evaluate the model on the test set and report validation accuracy.
-
-Save the trained model to cifar10_model.json. 📈
+- Download and extract the CIFAR-10 dataset. 📥
+- Train the selected model on the dataset.
+- Display training progress (loss and accuracy per batch/epoch).
+- Evaluate the model on the test set and report validation accuracy.
+- Save the trained model to cifar10_model.json. 📈
 
 ## 📂 Project Structure
-Program.cs: Entry point, handles user input, model selection, and training orchestration.
-
-Trainer.cs: Manages the training and evaluation pipeline, including batch processing, forward/backward passes, and optimization.
-
-Core/: Contains tensor operations (Tensor3D, Tensor4D) for data manipulation.
-
-Layers/: Implements CNN layers (Convolution, BatchNorm, ReLU, MaxPool, Dropout, Dense).
-
-Data/: Handles CIFAR-10 dataset downloading and loading.
-
-Models/: Defines the SequentialModel class and model creation logic.
-
-Training/: Includes optimizer implementations (SGD, Adam) and loss functions (CrossEntropyLoss).
-
-Models/Serialization/: Supports saving and loading models to/from JSON.
+- Program.cs: Entry point, handles user input, model selection, and training orchestration.
+- Trainer.cs: Manages the training and evaluation pipeline, including batch processing, forward/backward passes, and optimization.
+- Core/: Contains tensor operations (Tensor3D, Tensor4D) for data manipulation.
+- Layers/: Implements CNN layers (Convolution, BatchNorm, ReLU, MaxPool, Dropout, Dense).
+- Data/: Handles CIFAR-10 dataset downloading and loading.
+- Models/: Defines the SequentialModel class and model creation logic.
+- Training/: Includes optimizer implementations (SGD, Adam) and loss functions (CrossEntropyLoss).
+- Models/Serialization/: Supports saving and loading models to/from JSON.
 
 ## ⚠️ Limitations
 Educational Focus: Designed for learning, not optimized for production-level performance.
