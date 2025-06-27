@@ -108,6 +108,6 @@ Inspired by the Global AI Community.
 
 Built purely for learning and experimentation with deep learning concepts in C#.
 
-🔗 Connect
+## 🔗 Connect
 Feel free to connect with me on LinkedIn!
 https://www.linkedin.com/in/danielkereama/
